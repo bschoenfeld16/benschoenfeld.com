@@ -9,9 +9,6 @@ export const DarkModeSwitch = () => {
         <>
             <IconButton
                 aria-label="Dark Mode"
-                position="fixed"
-                top="1rem"
-                right="1rem"
                 variant="ghost"
                 icon={
                     isDark ? (

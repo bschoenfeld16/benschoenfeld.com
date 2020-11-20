@@ -1,8 +1,11 @@
-import { DarkModeSwitch } from "../components/DarkModeSwitch";
 import React from "react";
+import { Box } from "@chakra-ui/layout";
+import Layout from "../components/Layout";
 
 const Index = () => (
-    <DarkModeSwitch />
+    <Box>
+        <Layout />
+    </Box>
 );
 
 export default Index;

@@ -1,22 +1,19 @@
 import React from "react";
-import { Box, Flex } from "@chakra-ui/layout";
 import Layout from "../components/Layout";
-import { Image } from "@chakra-ui/core";
+import Image from "next/image";
 
 const Index: React.FC = () => (
-    <Box>
-        <Layout>
-            <Flex p={4}>
-                <Image
-                    borderRadius="full"
-                    alt="Ben Schoenfeld"
-                    src="/images/IMG_0019.jpeg"
-                    boxSize="150px"
-                />
-                Back end dev aspiring to learn some CSS
-            </Flex>
-        </Layout>
-    </Box>
+    <Layout>
+        <div>
+            <Image
+                alt="Ben Schoenfeld"
+                src="/images/IMG_0019.jpeg"
+                width="128"
+                height="128"
+            />
+            Back end dev aspiring to learn some CSS
+        </div>
+    </Layout>
 );
 
 export default Index;

@@ -6,15 +6,15 @@ const DarkModeToggle: React.FC = () => {
 
     return (
         <div>
-            <button type="button" onClick={darkMode.disable}>
-                Light Mode
-            </button>
+            {/*<button type="button" onClick={darkMode.disable}>*/}
+            {/*    Light Mode*/}
+            {/*</button>*/}
             <button type="button" onClick={darkMode.toggle}>
                 toggle
             </button>
-            <button type="button" onClick={darkMode.enable}>
-                DarkMode
-            </button>
+            {/*<button type="button" onClick={darkMode.enable}>*/}
+            {/*    DarkMode*/}
+            {/*</button>*/}
         </div>
     );
 };

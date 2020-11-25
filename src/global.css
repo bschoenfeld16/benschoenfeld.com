@@ -8,10 +8,12 @@ body {
 }
 
 body.light-mode {
-    background-color: #fff;
-    --primary-color: blue;
+    background-color: #FFFFFF;
+    --primary-color: black;
+    --accent-color: rgba(0, 0, 0, 0.3)
 }
 body.dark-mode {
-    background-color: #1a1919;
-    --primary-color: red;
+    background-color: #1A202C;
+    --primary-color: white;
+    --accent-color: rgba(255, 255, 255, 0.3)
 }

@@ -1,6 +1,6 @@
 .Navbar {
     box-sizing: border-box;
-    background: rgba(245, 244, 244, 0.9);
+    /*background: rgba(0, 0, 0, 0.05);*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +15,13 @@
     margin: 0 0.5rem;
     padding: 0.5rem;
     border-radius: 4px;
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 .NavbarLink:hover,
 .NavbarLink:active {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.3);
+    background: var(--accent-color);
 }
 

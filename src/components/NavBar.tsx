@@ -1,6 +1,7 @@
 import React from "react";
 import NextLink from "next/link";
 import classes from "./Navbar.module.css";
+import DarkModeToggle from "./DarkModeToggle";
 
 interface NavBarProps {}
 
@@ -17,6 +18,7 @@ const NavBar: React.FC<NavBarProps> = ({}) => {
                     <a>projects</a>
                 </div>
             </NextLink>
+            <DarkModeToggle />
         </header>
     );
 };

@@ -8,7 +8,7 @@ interface NavBarProps {}
 const NavBar: React.FC<NavBarProps> = ({}) => {
     return (
         <header className={classes.Navbar}>
-            <ActiveLink activeClassName={classes.active} href="/">
+            <ActiveLink activeClassName={classes.NavbarLinkActive} href="/">
                 <a className={classes.NavbarLink}>home</a>
             </ActiveLink>
             <ActiveLink activeClassName={classes.active} href="/projects">

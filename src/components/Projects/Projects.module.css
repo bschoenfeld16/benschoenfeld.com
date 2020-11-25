@@ -1,0 +1,12 @@
+.Projects {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.Projects:hover,
+.Projects:active {
+    text-decoration: underline;
+}

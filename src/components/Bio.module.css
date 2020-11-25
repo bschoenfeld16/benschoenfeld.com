@@ -3,9 +3,15 @@
     flex-direction: column;
     align-items: center;
     color: var(--primary-color);
-    /*justify-content: center;*/
+    width: 40%;
+    margin: auto;
 }
 
 .Image {
     border-radius: 10px;
+}
+
+.Info {
+    margin-top: 1rem;
+    font-size: 1.0rem;
 }

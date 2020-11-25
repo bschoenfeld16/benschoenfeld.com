@@ -7,17 +7,18 @@ interface NavBarProps {}
 
 const NavBar: React.FC<NavBarProps> = ({}) => {
     return (
-        <header className={classes.Navbar}>
-            <>
+        <>
+            <div className={`${classes.Navbar} ${classes.Blur}`} />
+            <header className={classes.Navbar}>
                 <NextLink href="/">
                     <a className={classes.NavbarLink}>home</a>
                 </NextLink>
                 <NextLink href="/">
                     <a className={classes.NavbarLink}>projects</a>
                 </NextLink>
-            </>
-            <DarkModeToggle />
-        </header>
+                <DarkModeToggle />
+            </header>
+        </>
     );
 };
 

@@ -11,7 +11,12 @@ const Bio: React.FC = ({}) => (
             width="128"
             height="128"
         />
-        Back end dev aspiring to learn some CSS
+        <div className={classes.Info}>
+            Hi, I'm Ben. I'm a Software Engineer in the Minneapolis, MN area. I
+            mostly work on backend infrastructure in c++ and Java. I'm currently
+            interested in learning Next.js with GraphQL backend API's to develop
+            full stack web applications.
+        </div>
     </div>
 );
 

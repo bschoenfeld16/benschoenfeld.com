@@ -21,7 +21,7 @@
 }
 
 .NavbarLink:hover,
-.NavbarLink:active {
+.NavbarLink.active {
     cursor: pointer;
     background: var(--accent-color);
 }

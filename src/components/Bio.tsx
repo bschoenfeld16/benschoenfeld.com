@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import classes from "./bio.module.css";
+import classes from "./Bio.module.css";
 
 const Bio: React.FC = ({}) => (
     <div className={classes.Bio}>

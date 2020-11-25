@@ -1,18 +1,23 @@
 import React from "react";
 import NextLink from "next/link";
-import classes from "./navbar.module.css";
+import classes from "./Navbar.module.css";
 
 interface NavBarProps {}
 
 const NavBar: React.FC<NavBarProps> = ({}) => {
     return (
-        <div className={classes.Navbar}>
+        <header className={classes.Navbar}>
             <NextLink href="/">
-                <a>
-                    <h1>Ben Schoenfeld</h1>
-                </a>
+                <div className={classes.NavbarLink}>
+                    <a>home</a>
+                </div>
             </NextLink>
-        </div>
+            <NextLink href="/projects">
+                <div className={classes.NavbarLink}>
+                    <a>projects</a>
+                </div>
+            </NextLink>
+        </header>
     );
 };
 

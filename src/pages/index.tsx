@@ -1,18 +1,18 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Image from "next/image";
+import Head from "next/head";
+import Bio from "../components/Bio";
 
 const Index: React.FC = () => (
     <Layout>
-        <div>
-            <Image
-                alt="Ben Schoenfeld"
-                src="/images/IMG_0019.jpeg"
-                width="128"
-                height="128"
+        <Head>
+            <title>bens</title>
+            <meta
+                name="viewport"
+                content="initial-scale=1.0, width=device-width"
             />
-            Back end dev aspiring to learn some CSS
-        </div>
+        </Head>
+        <Bio />
     </Layout>
 );
 

@@ -17,7 +17,6 @@ const ActiveLink: React.FC<ActiveLinkProps> = ({
     const { asPath } = useRouter();
     const child = Children.only(children) as any;
     const childClassName = child.props.className || "";
-    console.log("asPath=", asPath);
 
     // pages/index.js will be matched via props.href
     // pages/about.js will be matched via props.href

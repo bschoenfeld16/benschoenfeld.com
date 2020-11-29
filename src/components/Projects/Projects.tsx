@@ -8,7 +8,7 @@ const Projects: React.FC = ({}) => (
         <a
             className={classes.Projects}
             target="_blank"
-            href="https://benschoenfeld.com">
+            href="https://lireddit-web.benschoenfeld.com">
             LiReddit
             <BiLinkExternal />
         </a>

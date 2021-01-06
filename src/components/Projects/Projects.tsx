@@ -4,14 +4,14 @@ import classes from "./Projects.module.css";
 
 const Projects: React.FC = ({}) => (
     <div>
-        <h1>projects</h1>
-        <a
-            className={classes.Projects}
-            target="_blank"
-            href="https://lireddit-web.benschoenfeld.com">
-            LiReddit
-            <BiLinkExternal />
-        </a>
+        <h1>Projects</h1>
+        <div className={classes.Project}>
+            <a target="_blank" href="https://lireddit-web.benschoenfeld.com">
+                LiReddit
+                <BiLinkExternal />
+            </a>
+            <div>a simple reddit clone</div>
+        </div>
     </div>
 );
 

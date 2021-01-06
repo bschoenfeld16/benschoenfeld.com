@@ -1,12 +1,10 @@
-.Projects {
+.Project {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-decoration: none;
-    color: inherit;
 }
 
-.Projects:hover,
-.Projects:active {
-    text-decoration: underline;
+.Project > a {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    padding-right: 0.5rem;
 }

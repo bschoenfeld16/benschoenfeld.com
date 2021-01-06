@@ -1,6 +1,7 @@
 .Navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     left: 0;
@@ -11,3 +12,18 @@
     margin-bottom: 1rem;
     padding: 0 0.5rem;
 }
+
+.Resume {
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: var(--accent-color);
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.Resume:hover {
+    background-color: var(--accent-2-color);
+}
+

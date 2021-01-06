@@ -5,7 +5,7 @@ import Projects from "../components/Projects/Projects";
 
 const Index: React.FC = () => {
     return (
-        <Layout title="bens - home">
+        <Layout title="Ben Schoenfeld">
             <Bio />
             <Projects />
         </Layout>

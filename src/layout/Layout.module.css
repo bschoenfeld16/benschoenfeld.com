@@ -2,6 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 40%;
+    width: 90%;
     margin: auto;
+}
+
+@media (min-width: 40rem) {
+    .Main {
+        width: 50%;
+    }
 }

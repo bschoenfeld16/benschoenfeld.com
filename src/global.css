@@ -8,12 +8,20 @@ body {
 }
 
 body.light-mode {
-    background-color: #FFFFFF;
+    --background-color: #FFFFFF;
     --primary-color: black;
-    --accent-color: rgba(0, 0, 0, 0.3)
+    --accent-color: #edf2f7;
+    --accent-2-color: #e2e8f0;
+
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
 body.dark-mode {
-    background-color: #1A202C;
+    --background-color: #1A202C;
     --primary-color: white;
-    --accent-color: rgba(255, 255, 255, 0.3)
+    --accent-color: rgba(255, 255, 255, 0.1);
+    --accent-2-color: rgba(255, 255, 255, 0.16);
+
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }

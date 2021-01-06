@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "./NavBar";
 import classes from "./Layout.module.css";
 import Head from "next/head";
+import NavBar from "../components/navbar/NavBar";
 
 interface LayoutProps {
     title?: string;

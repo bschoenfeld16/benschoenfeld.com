@@ -1,6 +1,13 @@
 import React from "react";
 import classes from "./Navbar.module.css";
-import DarkModeToggle from "../darkmodetoggle/DarkModeToggle";
+import dynamic from "next/dynamic";
+
+const DarkModeToggle = dynamic(
+    () => import("../darkmodetoggle/DarkModeToggle"),
+    {
+        ssr: false,
+    }
+);
 
 interface NavBarProps {}
 

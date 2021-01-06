@@ -1,10 +1,19 @@
+.Container {
+    width: 100%;
+}
+
 .Project {
     display: flex;
+    flex-direction: column;
+    background-color: var(--accent-color);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .Project > a {
     display: flex;
     align-items: center;
     color: inherit;
-    padding-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
 }

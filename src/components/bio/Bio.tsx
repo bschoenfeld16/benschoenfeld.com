@@ -8,16 +8,17 @@ const Bio: React.FC = ({}) => (
             className={classes.Image}
             alt="Ben Schoenfeld"
             src="/images/IMG_0019.jpeg"
-            width="128"
-            height="128"
+            width="150"
+            height="150"
         />
         <div>
             <h1>About Me</h1>
             <div>
-                Hi, I'm Ben. I'm a Software Engineer in the Minneapolis, MN
-                area. I mostly work on backend infrastructure in C++ and Java.
-                I'm currently interested in learning Next.js and TypeScript with
-                GraphQL backend API's to develop full stack web applications.
+                Hi, I'm Ben. I'm a software engineer in the Minneapolis, MN
+                area. Professionally, I primarily work on backend
+                infrastructure/API's in C++ and Java. In my free time I'm
+                currently learning Next.js and TypeScript with GraphQL backend
+                API's to develop full stack web applications.
             </div>
         </div>
     </>

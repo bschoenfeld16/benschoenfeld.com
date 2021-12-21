@@ -19,7 +19,7 @@ const Projects: React.FC = ({}) => (
             {/*</a>*/}
         </div>
         <div className={classes.Project}>
-            <a target="_blank" href="https://opes.benschoenfeld.com">
+            <a target="_blank" href="https://opes-dev.benschoenfeld.com">
                 Opes
                 <BiLinkExternal />
             </a>

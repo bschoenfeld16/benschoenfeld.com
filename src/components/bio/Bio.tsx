@@ -18,8 +18,8 @@ const Bio: React.FC = ({}) => (
         Breckenridge, CO. I primarily work on backend infrastructure/API's but
         am a strong full stack developer as well. In my free time I'm currently
         learning Next.js and TypeScript with GraphQL backend API's to develop
-        full stack web applications. I've also reently started diving into React
-        Native with Expo Router to develop mobile apps.
+        full stack web applications. I've also recently started diving into
+        React Native with Expo Router to develop mobile apps.
       </div>
     </div>
   </>
